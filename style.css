@@ -3,13 +3,16 @@
 }
 
 .soldiv a{
+    
     display: inline;
-    font-family: arial,sans-serif;
-    font-size: 13px;
     margin: 10px;
     margin-right: 16px;
     text-decoration-line: none;
     overflow: hidden;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #5f6368;
 }
 .sagdiv {
     margin-left: 15px;
@@ -18,17 +21,20 @@
 
 .sagdiv a{
     float: right;
-    font-family: arial,sans-serif;
-    font-size: 13px;
     margin: 10px;
     margin-top: 0px;
     margin-right: 16px;
     text-decoration-line: none;
     overflow: hidden;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #5f6368;
 }
 
 
-.saglogo{    
+.saglogo{
+     
     margin: 0px;
     width: 16px;
     height: 16px;
@@ -46,4 +52,86 @@
 .ortalogo{
     margin-top: 109px;
     text-align: center;
+}
+
+
+
+
+
+.ortadiv img{
+    display: flex;
+    float: left;
+
+
+}
+
+
+
+.inputbar input{
+    display: inline-block;
+    color: transparent;
+    flex: 100%;
+    font: 16px arial, sans-serif;
+    height: 34px !important;
+    margin-top: 68px;
+    width: 480px;
+    background-color:transparent;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    border: none;  
+}
+.inputbar img{
+    vertical-align: middle;
+    width: 24px;
+    height: 24px;
+    margin-right: -40px;
+    margin-left: -40px;
+}
+
+
+
+.buttons button{
+    border: 1px;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #5f6368;
+    height: 36px;
+    padding-top: 20px;
+    margin: 10px;
+
+
+}
+
+
+.leftbottomdiv a{
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 10px;
+    margin-top: 200px;
+    margin-right: 16px;
+    text-decoration-line: none;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #5f6368;
+}
+
+.rightbottomdiv a{
+    display: inline-block;
+    float: right;
+    text-decoration: none;
+    font-size: 13px;
+    margin: 10px;
+    margin-top: 200px;        
+    margin-right: 16px;
+    text-decoration-line: none;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #5f6368;
 }
