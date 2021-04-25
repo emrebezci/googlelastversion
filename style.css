@@ -1,0 +1,49 @@
+.soldiv{
+    margin-left: 15px;
+}
+
+.soldiv a{
+    display: inline;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin: 10px;
+    margin-right: 16px;
+    text-decoration-line: none;
+    overflow: hidden;
+}
+.sagdiv {
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.sagdiv a{
+    float: right;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-right: 16px;
+    text-decoration-line: none;
+    overflow: hidden;
+}
+
+
+.saglogo{    
+    margin: 0px;
+    width: 16px;
+    height: 16px;
+    opacity: 55%;
+    text-decoration: none;
+
+}
+
+.profilepic{
+    margin: 0px;
+    width: 32px;
+    height: 32px;
+}
+
+.ortalogo{
+    margin-top: 109px;
+    text-align: center;
+}
